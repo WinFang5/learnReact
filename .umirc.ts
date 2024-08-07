@@ -177,6 +177,42 @@ export default defineConfig({
           path: '/ahooks/usethrottle',
           component: './AhooksApi/State/UseThrottleTest',
         },
+        {
+          path: '/ahooks/usemap',
+          component: './AhooksApi/State/UseMapTest',
+        },
+        {
+          path: '/ahooks/useset',
+          component: './AhooksApi/State/UseSetTest',
+        },
+        {
+          path: '/ahooks/useprevious',
+          component: './AhooksApi/State/UsePreviousTest',
+        },
+        {
+          path: '/ahooks/userafstate',
+          component: './AhooksApi/State/UseRafStateTest',
+        },
+        {
+          path: '/ahooks/useSafeState',
+          component: './AhooksApi/State/UseSafeStateTest',
+        },
+        {
+          path: '/ahooks/useGetState',
+          component: './AhooksApi/State/UseGetStateTest',
+        },
+        {
+          path: '/ahooks/useResetState',
+          component: './AhooksApi/State/UseResetStateTest',
+        },
+        {
+          path: '/ahooks/useUpdateEffect',
+          component: './AhooksApi/Effect/UseUpdateEffectTest',
+        },
+        {
+          path: '/ahooks/useUpdateLayoutEffect',
+          component: './AhooksApi/Effect/UseUpdateLayoutEffectTest',
+        },
       ]
     },
   ],

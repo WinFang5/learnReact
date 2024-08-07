@@ -233,8 +233,84 @@ export default function Nav() {
             useThrottle
           </NavLink>
         </button>
+        <button>
+          <NavLink
+            to="usemap"
+            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
+          >
+            useMap
+          </NavLink>
+        </button>
+        <button>
+          <NavLink
+            to="useset"
+            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
+          >
+            useSet
+          </NavLink>
+        </button>
+        <button>
+          <NavLink
+            to="useprevious"
+            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
+          >
+            usePrevious
+          </NavLink>
+        </button>
+        <button>
+          <NavLink
+            to="userafstate"
+            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
+          >
+            useRafState
+          </NavLink>
+        </button>
+        <button>
+          <NavLink
+            to="useSafeState"
+            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
+          >
+            useSafeState
+          </NavLink>
+        </button>
+        <button>
+          <NavLink
+            to="useGetState"
+            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
+          >
+            useGetState
+          </NavLink>
+        </button>
+        <button>
+          <NavLink
+            to="useResetState"
+            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
+          >
+            useResetState
+          </NavLink>
+        </button>
       </div>
       <hr />
+      <div>
+        <h2>Effect</h2>
+        <button>
+          <NavLink
+            to="useUpdateEffect"
+            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
+          >
+            useUpdateEffect
+          </NavLink>
+        </button>
+        <button>
+          <NavLink
+            to="useUpdateLayoutEffect"
+            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
+          >
+            useUpdateLayoutEffect
+          </NavLink>
+        </button>
+      </div>
+      <hr/>
     </>
   );
 }
