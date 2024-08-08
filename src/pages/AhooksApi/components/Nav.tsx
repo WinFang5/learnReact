@@ -309,8 +309,147 @@ export default function Nav() {
             useUpdateLayoutEffect
           </NavLink>
         </button>
+        <button>
+          <NavLink
+            to="useAsyncEffect"
+            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
+          >
+            useAsyncEffect
+          </NavLink>
+        </button>
+        <button>
+          <NavLink
+            to="useDebounceEffect"
+            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
+          >
+            useDebounceEffect
+          </NavLink>
+        </button>
+        <button>
+          <NavLink
+            to="useDebounceFn"
+            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
+          >
+            useDebounceFn
+          </NavLink>
+        </button>
+        <button>
+          <NavLink
+            to="useThrottleFn"
+            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
+          >
+            useThrottleFn
+          </NavLink>
+        </button>
+        <button>
+          <NavLink
+            to="useThrottleEffect"
+            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
+          >
+            useThrottleEffect
+          </NavLink>
+        </button>
+        <button>
+          <NavLink
+            to="useDeepCompareEffect"
+            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
+          >
+            useDeepCompareEffect
+          </NavLink>
+        </button>
+        <button>
+          <NavLink
+            to="useDeepCompareLayoutEffect"
+            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
+          >
+            useDeepCompareLayoutEffect
+          </NavLink>
+        </button>
+        <button>
+          <NavLink
+            to="useInterval"
+            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
+          >
+            useInterval
+          </NavLink>
+        </button>
+        <button>
+          <NavLink
+            to="useRafInterval"
+            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
+          >
+            useRafInterval
+          </NavLink>
+        </button>
+        <button>
+          <NavLink
+            to="useTimeout"
+            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
+          >
+            useTimeout
+          </NavLink>
+        </button>
+        <button>
+          <NavLink
+            to="useRafTimeout"
+            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
+          >
+            useRafTimeout
+          </NavLink>
+        </button>
+        <button>
+          <NavLink
+            to="useLockFn"
+            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
+          >
+            useLockFn
+          </NavLink>
+        </button>
+        <button>
+          <NavLink
+            to="useUpdate"
+            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
+          >
+            useUpdate
+          </NavLink>
+        </button>
       </div>
       <hr/>
+      <div>
+        <h2>Dom</h2>
+        <button>
+          <NavLink
+            to="useEventListener"
+            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
+          >
+            useEventListener
+          </NavLink>
+        </button>
+        <button>
+          <NavLink
+            to="useClickAway"
+            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
+          >
+            useClickAway
+          </NavLink>
+        </button>
+        <button>
+          <NavLink
+            to="useDocumentVisibility"
+            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
+          >
+            useDocumentVisibility
+          </NavLink>
+        </button>
+        <button>
+          <NavLink
+            to="useDropuseDrag"
+            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
+          >
+            useDropuseDrag
+          </NavLink>
+        </button>
+      </div>
     </>
   );
 }

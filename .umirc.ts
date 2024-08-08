@@ -212,6 +212,74 @@ export default defineConfig({
         {
           path: '/ahooks/useUpdateLayoutEffect',
           component: './AhooksApi/Effect/UseUpdateLayoutEffectTest',
+        },  
+        {
+          path: '/ahooks/useAsyncEffect',
+          component: './AhooksApi/Effect/UseAsyncEffectTest',
+        },
+        {
+          path: '/ahooks/useDebounceEffect',
+          component: './AhooksApi/Effect/UseDebounceEffectTest',
+        },
+        {
+          path: '/ahooks/useDebounceFn',
+          component: './AhooksApi/Effect/UseDebounceFnTest',
+        },
+        {
+          path: '/ahooks/useThrottleFn',
+          component: './AhooksApi/Effect/UseThrottleFnTest',
+        },
+        {
+          path: '/ahooks/useThrottleEffect',
+          component: './AhooksApi/Effect/UseThrottleEffectTest',
+        },
+        {
+          path: '/ahooks/useDeepCompareEffect',
+          component: './AhooksApi/Effect/UseDeepCompareEffectTest',
+        },
+        {
+          path: '/ahooks/useDeepCompareLayoutEffect',
+          component: './AhooksApi/Effect/UseDeepCompareLayoutEffectTest',
+        },
+        {
+          path: '/ahooks/useInterval',
+          component: './AhooksApi/Effect/UseIntervalTest',
+        },
+        {
+          path: '/ahooks/useRafInterval',
+          component: './AhooksApi/Effect/UseRafIntervalTest',
+        },
+        {
+          path: '/ahooks/useTimeout',
+          component: './AhooksApi/Effect/UseTimeoutTest',
+        },
+        {
+          path: '/ahooks/useRafTimeout',
+          component: './AhooksApi/Effect/UseRafTimeoutTest',
+        },
+        {
+          path: '/ahooks/useLockFn',
+          component: './AhooksApi/Effect/UseLockFnTest',
+        },
+        {
+          path: '/ahooks/useUpdate',
+          component: './AhooksApi/Effect/UseUpdateTest',
+        },
+        {
+          path: '/ahooks/useEventListener',
+          component: './AhooksApi/Dom/UseEventListenerTest',
+        },
+        {
+          path: '/ahooks/useClickAway',
+          component: './AhooksApi/Dom/UseClickAwayTest',
+        },
+        {
+          path: '/ahooks/useDocumentVisibility',
+          component: './AhooksApi/Dom/UseDocumentVisibilityTest',
+        },
+        {
+          path: '/ahooks/useDropuseDrag',
+          component: './AhooksApi/Dom/UseDropuseDragTest',
         },
       ]
     },
