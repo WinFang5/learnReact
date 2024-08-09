@@ -1,454 +1,80 @@
 import { NavLink } from 'umi';
+import NavButton from './NavButton'
 
 export default function Nav() {
   return (
     <>
       <div>
         <h2>useRequest</h2>
-        <button>
-          <NavLink
-            to="loadingdelay"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            Loading Delay
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="pollingInterval"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            轮询
-          </NavLink>
-        </button>
+        <NavButton address='loadingdelay' />
+        <NavButton address='pollingInterval' />
       </div>
       <hr />
       <div>
         <h2>Scene</h2>
-        <button>
-          <NavLink
-            to="useantdtable"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useAntdTable
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="usefusiontable"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useFusionTable
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="useinfinitescroll"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useInfiniteScroll
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="usepagination"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            usePagination
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="usedynamiclist"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useDynamicList
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="usevirtuallist"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useVirtualList
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="usehistorytravel"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useHistoryTravel
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="usenetwork"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useNetwork
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="useselections"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useSelections
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="usecountdown"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useCountDown
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="usecounter"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useCounter
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="usetextselection"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useTextSelection
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="usewebsocket"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useWebSocket
-          </NavLink>
-        </button>
+        <NavButton address='useantdtable' />
+        <NavButton address='usefusiontable' />
+        <NavButton address='useinfinitescroll' />
+        <NavButton address='usepagination' />
+        <NavButton address='usedynamiclist' />
+        <NavButton address='usevirtuallist' />
+        <NavButton address='usehistorytravel' />
+        <NavButton address='usenetwork' />
+        <NavButton address='useselections' />
+        <NavButton address='usecountdown' />
+        <NavButton address='usecounter' />
+        <NavButton address='usetextselection' />
+        <NavButton address='usewebsocket' />
       </div>
       <hr />
       <div>
         <h2>LifeCycle</h2>
-        <button>
-          <NavLink
-            to="usemount"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useMount
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="useunmount"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useUnmount
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="useunmountedref"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useUnmountedRef
-          </NavLink>
-        </button>
+        <NavButton address='usemount' />
+        <NavButton address='useunmount' />
+        <NavButton address='useunmountedref' />
       </div>
       <hr />
       <div>
         <h2>State</h2>
-        <button>
-          <NavLink
-            to="usesetstate"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useSetState
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="useboolean"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useBoolean
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="usetoggle"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useToggle
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="useurlstate"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useUrlState
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="usecookiestate"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useCookieState
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="uselocalstoragestate"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useLocalStorageState
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="usesessionstoragestate"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useSessionStorageState
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="usedebounce"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useDebounce
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="usethrottle"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useThrottle
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="usemap"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useMap
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="useset"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useSet
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="useprevious"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            usePrevious
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="userafstate"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useRafState
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="useSafeState"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useSafeState
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="useGetState"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useGetState
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="useResetState"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useResetState
-          </NavLink>
-        </button>
-      </div>
-      <hr />
-      <div>
-        <h2>Effect</h2>
-        <button>
-          <NavLink
-            to="useUpdateEffect"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useUpdateEffect
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="useUpdateLayoutEffect"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useUpdateLayoutEffect
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="useAsyncEffect"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useAsyncEffect
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="useDebounceEffect"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useDebounceEffect
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="useDebounceFn"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useDebounceFn
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="useThrottleFn"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useThrottleFn
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="useThrottleEffect"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useThrottleEffect
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="useDeepCompareEffect"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useDeepCompareEffect
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="useDeepCompareLayoutEffect"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useDeepCompareLayoutEffect
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="useInterval"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useInterval
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="useRafInterval"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useRafInterval
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="useTimeout"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useTimeout
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="useRafTimeout"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useRafTimeout
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="useLockFn"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useLockFn
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="useUpdate"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useUpdate
-          </NavLink>
-        </button>
+        <NavButton address='usesetstate' />
+        <NavButton address='useboolean' />
+        <NavButton address='usetoggle' />
+        <NavButton address='useurlstate' />
+        <NavButton address='usecookiestate' />
+        <NavButton address='uselocalstoragestate' />
+        <NavButton address='usesessionstoragestate' />
+        <NavButton address='usedebounce' />
+        <NavButton address='usethrottle' />
+        <NavButton address='usemap' />
+        <NavButton address='useset' />
+        <NavButton address='useprevious' />
+        <NavButton address='userafstate' />
+        <NavButton address='useSafeState' />
+        <NavButton address='useGetState' />
+        <NavButton address='useResetState' />
+        <NavButton address='useUpdateEffect' />
+        <NavButton address='useUpdateLayoutEffect' />
+        <NavButton address='useAsyncEffect' />
+        <NavButton address='useDebounceEffect' />
+        <NavButton address='useDebounceFn' />
+        <NavButton address='useThrottleFn' />
+        <NavButton address='useThrottleEffect' />
+        <NavButton address='useDeepCompareEffect' />
+        <NavButton address='useDeepCompareLayoutEffect' />
+        <NavButton address='useInterval' />
+        <NavButton address='useRafInterval' />
+        <NavButton address='useTimeout' />
+        <NavButton address='useRafTimeout' />
+        <NavButton address='useLockFn' />
+        <NavButton address='useUpdate' />
       </div>
       <hr/>
       <div>
         <h2>Dom</h2>
-        <button>
-          <NavLink
-            to="useEventListener"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useEventListener
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="useClickAway"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useClickAway
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="useDocumentVisibility"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useDocumentVisibility
-          </NavLink>
-        </button>
-        <button>
-          <NavLink
-            to="useDropuseDrag"
-            style={({ isActive }): any => (isActive ? { color: 'red' } : {})}
-          >
-            useDropuseDrag
-          </NavLink>
-        </button>
+        <NavButton address='useEventListener' />
+        <NavButton address='useClickAway' />
+        <NavButton address='useDocumentVisibility' />
+        <NavButton address='useDropuseDrag' />
       </div>
     </>
   );
