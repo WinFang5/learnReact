@@ -75,6 +75,18 @@ export default function Nav() {
         <NavButton address='useClickAway' />
         <NavButton address='useDocumentVisibility' />
         <NavButton address='useDropuseDrag' />
+        <NavButton address='useEventTarget' />
+        <NavButton address='useExternal' />
+        <NavButton address='useTitle' />
+        <NavButton address='useFavicon' />
+        <NavButton address='useFullscreen' />
+        <NavButton address='useHover' />
+        <NavButton address='useMutationObserver' />
+        <NavButton address='useInViewport' />
+        <NavButton address='useKeyPress' />
+        <NavButton address='useLongPress' />
+        <NavButton address='useMouse' />
+        <NavButton address='useResponsive' />
       </div>
     </>
   );
