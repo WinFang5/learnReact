@@ -260,4 +260,16 @@ export default [
     path: '/ahooks/useResponsive',
     component: './AhooksApi/Dom/UseResponsiveTest',
   },
+  {
+    path: '/ahooks/useScroll',
+    component: './AhooksApi/Dom/UseScrollTest',
+  },
+  {
+    path: '/ahooks/useSize',
+    component: './AhooksApi/Dom/UseSizeTest',
+  },
+  {
+    path: '/ahooks/useFocusWithin',
+    component: './AhooksApi/Dom/UseFocusWithinTest',
+  },
 ]

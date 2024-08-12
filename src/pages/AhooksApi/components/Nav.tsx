@@ -87,6 +87,9 @@ export default function Nav() {
         <NavButton address='useLongPress' />
         <NavButton address='useMouse' />
         <NavButton address='useResponsive' />
+        <NavButton address='useScroll' />
+        <NavButton address='useSize' />
+        <NavButton address='useFocusWithin' />
       </div>
     </>
   );
