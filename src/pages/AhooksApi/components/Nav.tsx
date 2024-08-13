@@ -91,6 +91,10 @@ export default function Nav() {
         <NavButton address='useSize' />
         <NavButton address='useFocusWithin' />
       </div>
+      <div>
+        <h2>Advanced</h2>
+        <NavButton address='useControllableValue' />
+      </div>
     </>
   );
 }

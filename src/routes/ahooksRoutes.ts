@@ -272,4 +272,8 @@ export default [
     path: '/ahooks/useFocusWithin',
     component: './AhooksApi/Dom/UseFocusWithinTest',
   },
+  {
+    path: '/ahooks/useControllableValue',
+    component: './AhooksApi/Advanced/UseControllableValueTest',
+  },
 ]
