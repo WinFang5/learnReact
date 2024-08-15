@@ -95,6 +95,7 @@ export default function Nav() {
         <h2>Advanced</h2>
         <NavButton address='useControllableValue' />
         <NavButton address='useCreation' />
+        <NavButton address='useEventEmitter' />
       </div>
     </>
   );

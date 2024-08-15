@@ -280,4 +280,8 @@ export default [
     path: '/ahooks/useCreation',
     component: './AhooksApi/Advanced/UseCreationTest',
   },
+  {
+    path: '/ahooks/useEventEmitter',
+    component: './AhooksApi/Advanced/UseEventEmitterTest',
+  },
 ]
