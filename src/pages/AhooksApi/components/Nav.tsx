@@ -96,6 +96,9 @@ export default function Nav() {
         <NavButton address='useControllableValue' />
         <NavButton address='useCreation' />
         <NavButton address='useEventEmitter' />
+        <NavButton address='useLatest' />
+        <NavButton address='useMemoizedFn' />
+        <NavButton address='useReactive' />
       </div>
     </>
   );

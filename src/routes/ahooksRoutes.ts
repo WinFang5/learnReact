@@ -284,4 +284,16 @@ export default [
     path: '/ahooks/useEventEmitter',
     component: './AhooksApi/Advanced/UseEventEmitterTest',
   },
+  {
+    path: '/ahooks/useLatest',
+    component: './AhooksApi/Advanced/UseLatestTest',
+  },
+  {
+    path: '/ahooks/useMemoizedFn',
+    component: './AhooksApi/Advanced/UseMemoizedFnTest',
+  },
+  {
+    path: '/ahooks/useReactive',
+    component: './AhooksApi/Advanced/UseReactiveTest',
+  },
 ]

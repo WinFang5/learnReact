@@ -1,5 +1,6 @@
 import MessageBox from './components/MessageBox';
 import {useEventEmitter} from 'ahooks'
+import InputBox from './components/InputBox';
 export default function UseEventEmitterTest() {
   const focus$ = useEventEmitter();
   return (
@@ -9,6 +10,7 @@ export default function UseEventEmitterTest() {
         ，可以让这一过程变得更加简单。
       </h3>
       <MessageBox focus$={focus$}/>
+      <InputBox focus$={focus$}/>
     </>
   );
 }
