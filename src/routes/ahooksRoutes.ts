@@ -296,4 +296,12 @@ export default [
     path: '/ahooks/useReactive',
     component: './AhooksApi/Advanced/UseReactiveTest',
   },
+  {
+    path: '/ahooks/useTrackedEffect',
+    component: './AhooksApi/Dev/UseTrackedEffectTest',
+  },
+  {
+    path: '/ahooks/useWhyDidYouUpdate',
+    component: './AhooksApi/Dev/UseWhyDidYouUpdateTest',
+  },
 ]
