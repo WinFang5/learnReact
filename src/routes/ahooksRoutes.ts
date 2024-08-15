@@ -276,4 +276,8 @@ export default [
     path: '/ahooks/useControllableValue',
     component: './AhooksApi/Advanced/UseControllableValueTest',
   },
+  {
+    path: '/ahooks/useCreation',
+    component: './AhooksApi/Advanced/UseCreationTest',
+  },
 ]
